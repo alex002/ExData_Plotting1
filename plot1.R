@@ -16,5 +16,17 @@ rownames(a)=NULL
 ## Extract the required data
 b=a[(a$Date=='1/2/2007'|a$Date=='2/2/2007'),]
 
+## Open a graphic device
+png(filename='plot1.png',width=480,height=480)
 
+## Set the background to be transparent
+par(bg = 'transparent')
 
+## Plot the graph
+hist(as.numeric(b$Global_active_power),
+     main='Global Active Power',
+     xlab='Global Active Power (kilowatts)',
+     col='red')
+
+## Close the graphic device
+dev.off()
