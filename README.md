@@ -1,3 +1,12 @@
+---------------------------------------------------------------------
+## Update from alex002
+
+* 4 figures are under 'figure' folder, R codes are under root folder
+
+* R codes are commented with details
+---------------------------------------------------------------------
+
+
 ## Introduction
 
 This assignment uses data from
